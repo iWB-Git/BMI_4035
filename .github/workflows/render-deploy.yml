@@ -21,9 +21,9 @@ jobs:
       webhook_secrete: ${{secretes.DEPLOY_HOOK_KEY}}
     -uses: bounceapp/render-actions@0.6.0
   with:
-    render token: ${{secrets. RENDER _API_KEY}}
-    github-token: ${{secrets. ACC_API_KEY}} # This is the GitHub token
-    service-id: "srv-cg901tg2qv259v98ulkg" # This id is unique for each app
+    render-token: ${{secrets.RENDER _API_KEY}}
+    github-token: ${{secrets.ACC_API_KEY}} # This is the GitHub token
+    service-id: "srv-cioeu2tph6elhbserqv0" # This id is unique for each app
     retries: 20
     wait: 16000
     sleep: 30000
